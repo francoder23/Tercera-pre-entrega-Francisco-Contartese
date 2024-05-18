@@ -1,0 +1,16 @@
+{% extends 'core/base.html' %}
+
+{% block título %}
+    sedes
+{% endblock título %}
+
+{% block contenido %}
+    {% for sede in sedes  %}
+        <h1>{{ Sedes.nombre}}</h1>
+        <h1>{{ Sedes.ubicación}}</h1>
+        <h1>{{ Sedes.director}}</h1>
+    {% endfor %}
+            
+
+    
+{% endblock contenido %}

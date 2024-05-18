@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+
+{% block título %}
+    <h1>Pagina inicial</h1>
+{% endblock título %}
+
+{% block contenido %}
+    <div>
+        <a href="{% url 'Clinica:index' %}">Ir a Clinica</a>
+    </div>
+{% endblock contenido %}
